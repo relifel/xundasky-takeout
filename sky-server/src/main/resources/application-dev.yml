@@ -12,3 +12,7 @@ sky:
     access-key-id: LTAI5t8qRKLQp2LR9d1JZd3d
     access-key-secret: 2jcGCmPiCrUmyiIaOVEpeA7IV1QpMu
     bucket-name: java-id
+
+  redis:
+    host: localhost
+    port: 6379
