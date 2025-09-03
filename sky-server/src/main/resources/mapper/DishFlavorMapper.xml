@@ -12,7 +12,7 @@
     </insert>
     <delete id="deleteByDishIds">
          delete from dish_flavor where dish_id in
-        <foreach collection="list" item="dishId" separator="," open="(" close=")">
+        <foreach collection="flavor" item="dishId" separator="," open="(" close=")">
             #{dishId}
         </foreach>
     </delete>
